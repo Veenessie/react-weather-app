@@ -9,8 +9,7 @@ function App() {
       </div>
       <footer>
         This project was coded by{" "}
-        <a href="https://github.com/Veenessie">Verity Masters</a>
-        and is{" "}
+        <a href="https://github.com/Veenessie">Verity Masters</a> and is{" "}
         <a href="https://github.com/Veenessie/react-weather-app">
           open-sourced on GitHub
         </a>{" "}

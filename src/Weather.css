@@ -1,6 +1,70 @@
 .Weather {
   border: 1px solid #dadde1;
-  padding: 10px;
-  margin-top: 10px;
+  padding: 16px;
   border-radius: 4px;
+}
+
+.Weather .city-search {
+  border: 1px solid #dadde1;
+  color: #dadde1;
+  width: 80%;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.Weather .city-submit {
+  margin-left: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  opacity: 0.6;
+  transition: all ease-in-out 100ms;
+}
+
+.Weather .city-submit:hover {
+  opacity: 1;
+}
+
+.Weather h1 {
+  opacity: 0.6;
+  font-weight: 600;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+  color: #dadde1;
+}
+
+.Weather li {
+  list-style: none;
+}
+
+.Weather header {
+  margin: 10px 0px 30px 0px;
+}
+
+.Weather img {
+  height: 64px;
+  width: 64px;
+  display: inline-block;
+}
+
+.Weather .temperature {
+  position: relative;
+  bottom: -18px;
+  margin-left: 5px;
+  opacity: 0.6;
+}
+
+.Weather .value {
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 400;
+}
+
+.Weather .unit {
+  font-size: 16px;
+  position: relative;
+  top: -32px;
 }
