@@ -1,9 +1,15 @@
 import "./App.css";
 import Weather from "./Weather";
+import logo from "./logo.png";
 
 function App() {
   return (
     <div className="App">
+      <div className="text-center">
+        <a href="/">
+          <img src={logo} alt="Logo" className="img-fluid" />
+        </a>
+      </div>
       <div className="container">
         <Weather defaultCity="London" />
       </div>

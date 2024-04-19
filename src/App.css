@@ -3,6 +3,12 @@
   margin: 30px auto;
 }
 
+.App img {
+  width: 240px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
 .App footer {
   font-size: 10.5px;
   text-align: center;
